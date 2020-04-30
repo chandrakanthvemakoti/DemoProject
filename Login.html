@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+   <script src="myscript.js"></script>
+    <title>Login Form</title>
+</head>
+<body>
+    
+    <div>
+        
+    <h1 class="top">Please login to your account</h1>
+    <br>
+    <form id="form" onsubmit="return validtaion();">
+      
+     <input type="text" placeholder="Username" class="user" name="username" id="username" onchange="inputValidation('username')" ></td>
+     <br>
+     <span id="usernameError" class="error" >*Please enter the username</span>
+        <br>
+        <br>
+<input type="password" placeholder="Password" class="pass" name="password" id="password" onchange="inputValidation('password')">
+<br>
+<span id="passwordError" class="error" >*Please enter the password</span>
+      <br>
+      <br>
+      <br>
+      
+      <button class="log" type="submit" name="submit">Login Now</button>
+      <h3><a href="" class="forgot">Forgot your password?</a></h3>
+    </form>
+    
+
+</div>
+
+</body>
+
+</html>
+
+
+
+ 

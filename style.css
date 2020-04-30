@@ -1,0 +1,60 @@
+
+
+    body{
+
+        margin: 100px;
+    }
+    div{
+        text-align: center;
+    }
+
+    .top{
+
+        font-family: Montserrat;
+        font-size: 30px;
+       
+        font-weight: bold;
+      
+        letter-spacing: 2px;
+        
+    }
+ .log{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-image: linear-gradient(98deg, #fb7f3e, #fa496e);
+    width: 400px;
+    height: 50px;
+    border-radius: 14px;
+
+
+ }
+ .forgot{
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #0095c4;
+    text-decoration: none;
+
+ }
+.user{
+    width: 400px;
+    height: 40px;
+    border-radius: 9px;
+  background-color: #f4f4f6;
+  color: #212121;
+  font-size: 20px;
+  
+ 
+}
+.pass{
+    width: 400px;
+    height: 40px;
+    border-radius: 9px;
+  background-color: #f4f4f6;
+  font-size: 20px;
+}
+.error{
+    color: red;
+    font-size: 15px;
+}
