@@ -30,20 +30,18 @@ function validation(){
     
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    var form = document.getElementById("form").addEventListener("click",function(event){
-        event.preventDefault()
+    var forms = document.getElementById("forms").addEventListener("click",function(event){
+        event.preventDefault();
     });
     
 
-    if(username== null || username=="")
+    if(username== null || username==""){
     document.getElementById("usernameError").style.display="block";
-
-    if(password == null || password=="")
-    document.getElementById("passwordError").style.display="block";
-
-    if(username !=="" && password !== "")
-    {
-        alert("Login successful");
     }
+    if(password == null || password=="")
+    {
+    document.getElementById("passwordError").style.display="block";
+    }
+  
     
 }

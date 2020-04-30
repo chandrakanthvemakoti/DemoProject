@@ -58,3 +58,10 @@
     color: red;
     font-size: 15px;
 }
+@media screen and (max-width:600px)
+{
+    .login,.u,.p ,input,button{
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+}
