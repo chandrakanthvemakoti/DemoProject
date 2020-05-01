@@ -1,58 +1,111 @@
-
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat/Montserrat-ExtraBold.ttf"); 
+  }
+  @font-face {
+    font-family: Montserrat1;
+    src: url("Montserrat/Montserrat-Regular.ttf"); 
+  }
+  @font-face {
+    font-family: Montserrat2;
+    src: url("Montserrat/Montserrat-Bold.ttf"); 
+  }
 
     body{
 
-        margin: 100px;
-    }
-    div{
-        text-align: center;
-    }
-
-    .top{
-
-        font-family: Montserrat;
-        font-size: 30px;
-       
-        font-weight: bold;
-      
-        letter-spacing: 2px;
+        margin: 60px;
+        background-color: #F4F4F6;
         
     }
+    div{
+
+        
+        text-align: center;
+        background-color: white;
+       
+    }
+    .login{
+
+        height: 700px;
+      
+       
+    }
+.image{
+    width: 78px;
+    height: 79px;
+}
+    .top{
+        
+      font-family: Montserrat;
+      font-size: 26px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.31;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--dark);
+}
+
+
+
+
  .log{
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     background-image: linear-gradient(98deg, #fb7f3e, #fa496e);
-    width: 400px;
-    height: 50px;
+    width: 406px;
+    height: 56px;
     border-radius: 14px;
+    object-fit: contain;
+    font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+
 
 
  }
  .forgot{
-    font-family: Montserrat;
-    font-size: 25px;
+    font-family: Montserrat1;
+    font-size: 16px; 
     color: #0095c4;
     text-decoration: none;
+    width: 178px;
+    height: 22px;
 
  }
 .user{
-    width: 400px;
-    height: 40px;
+    padding-left: 10px;
+    font-family: Montserrat1;
+    font-weight: bold;
+    width: 466px;
+    height: 56px;
     border-radius: 9px;
   background-color: #f4f4f6;
   color: #212121;
-  font-size: 20px;
+  font-size: 16px;
   
  
 }
+
+
+
 .pass{
-    width: 400px;
-    height: 40px;
+    padding-left: 10px;
+    font-family: Montserrat1;
+    font-weight: bold;
+    width: 466px;
+    height: 56px;
     border-radius: 9px;
   background-color: #f4f4f6;
-  font-size: 20px;
+  font-size: 16px;
+  color: #212121;
+}
+button{
+    margin-left: -10px;
 }
 .error{
     color: red;
@@ -60,8 +113,21 @@
 }
 @media screen and (max-width:600px)
 {
-    .login,.u,.p ,input,button{
-        width: 100% !important;
+    body,.login,input{
+        width: 80% !important;
         margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width:600px){
+  .u,.p {
+      width: 80% !important;
+      margin-top: 0 !important;
+  }
+  
+}
+@media screen and (max-width:600px){
+    button{
+    width: 80% !important;
     }
 }
