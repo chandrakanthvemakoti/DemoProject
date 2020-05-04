@@ -1,0 +1,190 @@
+#con{
+    background-color: #F4F4F6;
+}
+#side{
+    background-color:#ffffff;
+    border-radius: 16px;
+    width: 145px;
+}
+.sub{
+    width: 74px;
+    height: 26px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    text-align: center;
+  color: #767c8e;
+  margin: 10px;
+}
+
+.img{
+    margin-left: 30px;
+    width: 32px;
+    height: 32px;
+}
+.loginfo{
+    margin-left: -4px;
+    width: 110px;
+    height: 94px;
+    border-radius: 16px;
+  box-shadow: 0 6px 22px 0 rgba(251, 93, 93, 0.4);
+  background-image: linear-gradient(131deg, #fb7f3e, #fa496e 100%);
+}
+.logimg{
+    margin: 35px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.logtext{
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+}
+
+
+#otherside{
+   
+
+    margin: 50px;
+    margin-top: 20px;
+    width: 1180px;
+  height: 212px;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+
+}
+.what{
+      
+    
+    width: 383px;
+  height: 36px;
+  font-family: Montserrat1;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.please{
+    margin-top: -10px;
+    margin-left: 40px;
+    width: 383px;
+  height: 22px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  text-align: right;
+  color: #85868f;
+
+}
+
+#water{
+    font-size: 18px;
+    font-family: Montserrat;
+    width: 155px;
+  height: 122px;
+  border-radius: 16px 0 0 16px;
+  border: solid 2px #fb4d6b;
+  text-align: center;
+  margin-top: 35px;
+  color: #fb4d6b;
+}
+
+#meals{
+   font-size: 18px;
+    font-family: Montserrat2;
+    width: 155px;
+    height: 122px;
+    
+    border: solid 1px #c3c5d1;
+    text-align: center;
+    margin-top: 35px;
+ 
+}
+#thoughts{
+    font-size: 18px;
+    font-family: Montserrat2;
+    width: 155px;
+    height: 122px;
+    
+    border: solid 1px #c3c5d1;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+#exercises{
+    font-size: 18px;
+    font-family: Montserrat2;
+    width: 155px;
+    height: 122px;
+    border-radius: 0px  16px 16px 0px;
+    border: solid 1px #c3c5d1;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("Montserrat/Montserrat-Regular.ttf"); 
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url("Montserrat/Montserrat-Bold.ttf"); 
+  }
+
+  @font-face {
+    font-family: Montserrat1;
+    src: url("Montserrat/Montserrat-ExtraBold.ttf"); 
+  }
+  @font-face {
+    font-family: Montserrat2;
+    src: url("Montserrat/Montserrat-SemiBold.ttf"); 
+  }
