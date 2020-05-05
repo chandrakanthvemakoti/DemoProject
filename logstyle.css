@@ -1,10 +1,26 @@
 #con{
     background-color: #F4F4F6;
 }
+
+.logo{
+  width: 60px;
+  height: 61px;
+  object-fit: contain;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.dash{
+  width: 30px;
+  height: 25px;
+  object-fit: contain;
+  
+}
 #side{
     background-color:#ffffff;
     border-radius: 16px;
     width: 145px;
+    height: 960px;
 }
 .sub{
     width: 74px;
@@ -18,8 +34,9 @@
 
 .img{
     margin-left: 30px;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 25px;
+    object-fit: contain
 }
 .loginfo{
     margin-left: -4px;
@@ -30,13 +47,42 @@
   background-image: linear-gradient(131deg, #fb7f3e, #fa496e 100%);
 }
 .logimg{
-    margin: 35px;
-    margin-top: 10px;
-    width: 40px;
-    height: 40px;
+    margin: 40px;
+    margin-top: 20px;
+    width: 28px;
+    height: 28px;
+    color: white !important;
+   
 }
+.imglog{
+  margin-left: 30px;
+  width: 28px;
+  height: 23px;
+  object-fit: contain;
+}
+.imgcoach{
+  margin-left: 30px;
+  width: 28px;
+  height: 28px;
+  object-fit: contain
+}
+.imgreport{
+  margin-left: 30px;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+
+}
+.imgmessage{
+  margin-left: 30px;
+  width: 28px;
+  height: 21px;
+  object-fit: contain;
+}
+  
 
 .logtext{
+  
     font-family: Montserrat;
     text-align: center;
     margin-top: -30px;
@@ -85,51 +131,121 @@
 
 
 #water{
-    font-size: 18px;
-    font-family: Montserrat;
-    width: 155px;
-  height: 122px;
-  border-radius: 16px 0 0 16px;
-  border: solid 2px #fb4d6b;
-  text-align: center;
+
   margin-top: 35px;
+  width: 155px;
+  height: 122px;
+  object-fit: contain;
+  border-radius: 16px 0px 0px 16px;
+  border: solid 2px #fb4d6b;
+}
+
+
+ .waterimg{
+
+  margin-left: 45px;
+   margin-top: 25px !important;
+  width: 27.2px;
+  height: 36px;
+ }
+
+
+.watertext{
+  font-size: 18px;
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 15px;
   color: #fb4d6b;
 }
 
 #meals{
-   font-size: 18px;
-    font-family: Montserrat2;
-    width: 155px;
-    height: 122px;
+  margin-top: 35px;
+  width: 155px;
+  height: 122px;
+  object-fit: contain;
+  border: solid 1px #c3c5d1;
+}
     
-    border: solid 1px #c3c5d1;
-    text-align: center;
-    margin-top: 35px;
  
+
+.mealsimg{
+
+  margin-left: 45px;
+  margin-top: 35px !important;
+  width: 36px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
+.mealstext{
+  font-family: Montserrat2;
+  text-align: center;
+  margin-top: 15px;
+  width: 52px;
+  height: 22px;
+  margin-left: 40px;
+  font-size: 18px;
+
 }
 #thoughts{
-    font-size: 18px;
-    font-family: Montserrat2;
-    width: 155px;
-    height: 122px;
     
-    border: solid 1px #c3c5d1;
-    text-align: center;
-    margin-top: 35px;
+  margin-top: 35px;
+  width: 155px;
+  height: 122px;
+  object-fit: contain;
+  border: solid 1px #c3c5d1;   
+   
 
+}
+
+.thoughtsimg{
+  margin-left: 45px;
+  margin-top: 30px !important;
+  width: 35px;
+  height: 36px;
+  object-fit: contain;
+}
+
+
+.thoughtstext{
+ font-family: Montserrat2;
+ font-size: 18px;
+ text-align: center;
+ margin-top: 14px;
 }
 
 #exercises{
-    font-size: 18px;
-    font-family: Montserrat2;
+
+    margin-top: 35px;
     width: 155px;
     height: 122px;
     border-radius: 0px  16px 16px 0px;
     border: solid 1px #c3c5d1;
-    text-align: center;
-    margin-top: 35px;
+    
+    
 }
 
+.exercisesimg{
+  
+  margin-left: 45px;
+  margin-top: 30px !important;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+
+
+
+.exercisestext{
+  
+  margin-top: 14px;
+  font-size: 18px;
+  font-family: Montserrat2;
+  text-align: center;
+
+}
 #downside{
  
   margin-top: -30px !important;
@@ -309,9 +425,10 @@ width: 1px;
   background-image: linear-gradient(105deg, #fb7f3e, #fa496e 100%);
 }
 .saveimg{
-  width: 30px;
-  height: 25px;
-margin-left: 10px;
+  width: 25px;
+  height: 23px;
+  object-fit: contain;
+  margin-left: 10px;
   margin-top: 23px;
 }
 
@@ -319,7 +436,7 @@ margin-left: 10px;
 
 
   margin-top: -20px;
-  margin-left: 45px;
+  margin-left: 50px;
   width: 179px;
   height: 26px;
   font-family: Montserrat4;
