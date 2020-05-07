@@ -107,7 +107,7 @@
 button{
     margin-left: -10px;
 }
-.error{
+.errors{
     color: red;
     font-size: 15px;
     visibility: hidden;
