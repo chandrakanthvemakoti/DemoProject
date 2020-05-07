@@ -1,4 +1,4 @@
-#con{
+body{
     background-color: #F4F4F6;
 }
 
@@ -10,13 +10,9 @@
   margin-top: 20px;
 }
 
-.dash{
-  width: 30px;
-  height: 25px;
-  object-fit: contain;
-  
-}
+
 #side{
+  margin-left: -15px;
     background-color:#ffffff;
     border-radius: 16px;
     width: 145px;
@@ -341,7 +337,7 @@ width: 1px;
 }
 
 #rightside{
-  margin-left: -15px;
+  
   margin-top: 90px;
   width: 60px;
   height: 60px;
@@ -374,7 +370,7 @@ width: 1px;
   white-space: nowrap;
   margin-top: 100px;
 
-  margin-left: -80px;
+  margin-left: 13px;
   width: 141px;
   height: 22px;
  
@@ -450,18 +446,89 @@ width: 1px;
 
 
 
+@media screen and (max-width:780px){
+ #otherrow{
+   width: 60%;
+   margin-left: 500px;
+   margin-top: -130px;
+ }
+
+}
+
+@media screen and (max-width:995px){
+  #sideline{
+    width: 40%;
+    margin-left: 490px;
+    margin-top: -140px;
+  
+  }
+}
+
+@media screen and (max-width:995px){
+  #leftside{
+
+   margin-left: 540px;
+   margin-top: -142px;
+
+  }
+}
+
+
+@media screen and (max-width:995px){
+  #midnumber{
+
+   margin-left: 600px;
+   margin-top: -142px;
+
+  }
+}
+
+@media screen and (max-width:995px){
+  #rightside{
+
+   margin-left: 680px;
+   margin-top: -142px;
+
+  }
+}
+
+@media screen and (max-width:995px){
+  #lastside{
+
+   margin-left: 750px;
+   margin-top: -135px;
+
+  }
+}
+
+
+@media screen and (max-width:995px){
+  #filled{
+    margin-left: 400px;
+    width: 40%;
+    margin-top: -13px;
+  }
+}
+
+
+@media screen and (max-width:995px){
+  #save{
+    margin-left: 905px;
+   height: 40px;
+    margin-top: -30px;
+  }
+}
 
 
 
 
+@media screen and (max-width:995px){
+ .saveimg{
+   margin-top: 6px;
+ }
 
 
-
-
-
-
-
-
+  }
 
 
 
